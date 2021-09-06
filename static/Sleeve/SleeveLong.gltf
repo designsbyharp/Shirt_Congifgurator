@@ -1,0 +1,330 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sleeve_long_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010003958828747272,
+                0.010003958828747272,
+                0.010003958828747272
+            ],
+            "translation" : [
+                -0.1172574982047081,
+                -1.8961143493652344,
+                -0.22241978347301483
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "sleeve_long_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010003958828747272,
+                0.010003958828747272,
+                0.010003958828747272
+            ],
+            "translation" : [
+                -0.11684586852788925,
+                -1.8962287902832031,
+                -0.22220556437969208
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "sleeve_long",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010003958828747272,
+                0.010003958828747272,
+                0.010003958828747272
+            ],
+            "translation" : [
+                -0.09228132665157318,
+                -0.5773086547851562,
+                -0.15138843655586243
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.079",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.080",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.081",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "sleeve_long_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "sleeve_long_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "sleeve_long",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1088,
+            "max" : [
+                230.42152404785156,
+                33.965206146240234,
+                15.850341796875
+            ],
+            "min" : [
+                -230.49562072753906,
+                -30.907039642333984,
+                -14.5438232421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1088,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 4704,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2900,
+            "max" : [
+                232.91026306152344,
+                33.16880416870117,
+                14.6754150390625
+            ],
+            "min" : [
+                -232.91970825195312,
+                -31.02723503112793,
+                -13.4874267578125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2900,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 17424,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 22157,
+            "max" : [
+                298.56207275390625,
+                126.62528228759766,
+                206.2244873046875
+            ],
+            "min" : [
+                -305.0070495605469,
+                -97.31230926513672,
+                -308.1728515625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 22157,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 22157,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 117483,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 13056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9408,
+            "byteOffset" : 26112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34800,
+            "byteOffset" : 35520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34800,
+            "byteOffset" : 70320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34848,
+            "byteOffset" : 105120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 265884,
+            "byteOffset" : 139968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 265884,
+            "byteOffset" : 405852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 177256,
+            "byteOffset" : 671736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 234966,
+            "byteOffset" : 848992
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1083960,
+            "uri" : "SleeveLong.bin"
+        }
+    ]
+}

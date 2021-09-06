@@ -1,0 +1,315 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "cuff_DoubleButtonBeveled_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.04428927227854729,
+                -2.6348819732666016,
+                0.25767645239830017
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "cuff_DoubleButtonBeveled_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.044331490993499756,
+                -2.637889862060547,
+                0.25485721230506897
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "cuff_DoubleButtonBeveled",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.010507328435778618,
+                -2.5200672149658203,
+                0.49785688519477844
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.058",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.059",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.060",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "cuff_DoubleButtonBeveled_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "cuff_DoubleButtonBeveled_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "cuff_DoubleButtonBeveled",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2175,
+            "max" : [
+                2.2595980167388916,
+                0.6791496872901917,
+                0.46654510498046875
+            ],
+            "min" : [
+                -2.289571523666382,
+                -0.6043618321418762,
+                -0.4217519760131836
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2175,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 9408,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 5779,
+            "max" : [
+                2.237927198410034,
+                0.7023096680641174,
+                0.49827003479003906
+            ],
+            "min" : [
+                -2.2675204277038574,
+                -0.6088132858276367,
+                -0.42315196990966797
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 5779,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 34806,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4950,
+            "max" : [
+                2.7410576343536377,
+                1.1339553594589233,
+                0.8155975341796875
+            ],
+            "min" : [
+                -2.772742748260498,
+                -0.896397590637207,
+                -1.0177488327026367
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 4950,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 4950,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 25878,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 26100,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26100,
+            "byteOffset" : 26100
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18816,
+            "byteOffset" : 52200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69348,
+            "byteOffset" : 71016
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69348,
+            "byteOffset" : 140364
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69612,
+            "byteOffset" : 209712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59400,
+            "byteOffset" : 279324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59400,
+            "byteOffset" : 338724
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39600,
+            "byteOffset" : 398124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 51756,
+            "byteOffset" : 437724
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 489480,
+            "uri" : "DoubleButtonBeveled.bin"
+        }
+    ]
+}

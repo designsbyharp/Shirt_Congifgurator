@@ -1,0 +1,261 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "collar_BusinessClassic",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.01715916581451893,
+                3.093684196472168,
+                0.15760080516338348
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "collar_BusinessClassic_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.28660765290260315,
+                2.8794546127319336,
+                0.8494333028793335
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "collar_BusinessClassic_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.02001156099140644,
+                2.8921403884887695,
+                0.858805239200592
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Shirt",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "collar_BusinessClassic",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "collar_BusinessClassic_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "collar_BusinessClassic_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8
+                    },
+                    "indices" : 9
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5383,
+            "max" : [
+                0.8790916800498962,
+                0.7828671932220459,
+                0.6263904571533203
+            ],
+            "min" : [
+                -0.9059327840805054,
+                -0.8437913656234741,
+                -0.4101715087890625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5383,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5383,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 30057,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1444,
+            "max" : [
+                0.05085606873035431,
+                0.03988981246948242,
+                0.0552215576171875
+            ],
+            "min" : [
+                -0.05206522345542908,
+                -0.037914931774139404,
+                -0.05418968200683594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1444,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 8694,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 560,
+            "max" : [
+                0.262722373008728,
+                0.05199539661407471,
+                0.03504753112792969
+            ],
+            "min" : [
+                -0.32776543498039246,
+                -0.04637408256530762,
+                -0.030324935913085938
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 560,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 2412,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 64596,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64596,
+            "byteOffset" : 64596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43064,
+            "byteOffset" : 129192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60114,
+            "byteOffset" : 172256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17328,
+            "byteOffset" : 232372
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17328,
+            "byteOffset" : 249700
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17388,
+            "byteOffset" : 267028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6720,
+            "byteOffset" : 284416
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6720,
+            "byteOffset" : 291136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4824,
+            "byteOffset" : 297856
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 302680,
+            "uri" : "collar_BusinessClassic.bin"
+        }
+    ]
+}

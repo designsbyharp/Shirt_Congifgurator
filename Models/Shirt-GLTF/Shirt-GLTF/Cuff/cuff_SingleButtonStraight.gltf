@@ -1,0 +1,315 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "cuff_SingleButtonStraight_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.04644805192947388,
+                -2.633481025695801,
+                0.2531265318393707
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "cuff_SingleButtonStraight_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.04641071707010269,
+                -2.634026527404785,
+                0.2494770735502243
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "cuff_SingleButtonStraight",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.1107441857457161,
+                -2.516878128051758,
+                0.5307760834693909
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.040",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.041",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.042",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "cuff_SingleButtonStraight_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "cuff_SingleButtonStraight_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "cuff_SingleButtonStraight",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1088,
+            "max" : [
+                2.2590057849884033,
+                0.5699697136878967,
+                0.32904911041259766
+            ],
+            "min" : [
+                -2.2614586353302,
+                -0.5693070292472839,
+                -0.3441295623779297
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1088,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 4704,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2900,
+            "max" : [
+                2.2366554737091064,
+                0.5945821404457092,
+                0.3631114959716797
+            ],
+            "min" : [
+                -2.238718032836914,
+                -0.574745774269104,
+                -0.34499645233154297
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2900,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 17424,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4784,
+            "max" : [
+                2.8383989334106445,
+                1.0971214771270752,
+                0.8179082870483398
+            ],
+            "min" : [
+                -2.6719486713409424,
+                -0.9272790551185608,
+                -1.0143795013427734
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 4784,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 4784,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 25047,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 13056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9408,
+            "byteOffset" : 26112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34800,
+            "byteOffset" : 35520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34800,
+            "byteOffset" : 70320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34848,
+            "byteOffset" : 105120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57408,
+            "byteOffset" : 139968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57408,
+            "byteOffset" : 197376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38272,
+            "byteOffset" : 254784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50094,
+            "byteOffset" : 293056
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 343152,
+            "uri" : "cuff_SingleButtonStraight.bin"
+        }
+    ]
+}

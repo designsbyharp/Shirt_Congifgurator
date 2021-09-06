@@ -1,0 +1,315 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "collar_CutAwayTwoBtn_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.013116905465722084,
+                2.895181655883789,
+                0.861278235912323
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "collar_CutAwayTwoBtn_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.2770359218120575,
+                2.881441116333008,
+                0.8499424457550049
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "collar_CutAwayTwoBtn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.016185443848371506,
+                3.0844573974609375,
+                0.13046176731586456
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.016",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.017",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.018",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "collar_CutAwayTwoBtn_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "collar_CutAwayTwoBtn_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "collar_CutAwayTwoBtn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1088,
+            "max" : [
+                0.25321444869041443,
+                0.04893374443054199,
+                0.06881904602050781
+            ],
+            "min" : [
+                -0.31129857897758484,
+                -0.03672903776168823,
+                -0.06521034240722656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1088,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 4704,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2715,
+            "max" : [
+                0.043374642729759216,
+                0.033189356327056885,
+                0.07935523986816406
+            ],
+            "min" : [
+                -0.04425904154777527,
+                -0.03174549341201782,
+                -0.07880592346191406
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2715,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 16353,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4828,
+            "max" : [
+                0.8755390048027039,
+                0.8097490668296814,
+                0.5359535217285156
+            ],
+            "min" : [
+                -0.9052531123161316,
+                -0.8128036260604858,
+                -0.4193286895751953
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 4828,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 4828,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 25908,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13056,
+            "byteOffset" : 13056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9408,
+            "byteOffset" : 26112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32580,
+            "byteOffset" : 35520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32580,
+            "byteOffset" : 68100
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32706,
+            "byteOffset" : 100680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57936,
+            "byteOffset" : 133388
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57936,
+            "byteOffset" : 191324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38624,
+            "byteOffset" : 249260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 51816,
+            "byteOffset" : 287884
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 339700,
+            "uri" : "collar_CutAwayTwoBtn.bin"
+        }
+    ]
+}

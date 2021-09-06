@@ -1,0 +1,315 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "placket_WithPlacket_Hole",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.02370837703347206,
+                0.0026149749755859375,
+                1.215693473815918
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "placket_WithPlacket_Btn",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.022983064875006676,
+                0.0027313232421875,
+                1.2193833589553833
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "placket_WithPlacket",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.029621725901961327,
+                -0.14049911499023438,
+                1.156630277633667
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.067",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.068",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.069",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "placket_WithPlacket_Hole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "placket_WithPlacket_Btn",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "placket_WithPlacket",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3808,
+            "max" : [
+                0.033840689808130264,
+                0.1056067943572998,
+                2.3764753341674805
+            ],
+            "min" : [
+                -0.04566219076514244,
+                -0.3388404846191406,
+                -2.3143434524536133
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3808,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 16464,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 10112,
+            "max" : [
+                0.06344633549451828,
+                0.09933936595916748,
+                2.3507776260375977
+            ],
+            "min" : [
+                -0.07293955981731415,
+                -0.3237106204032898,
+                -2.2929391860961914
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 10112,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 60906,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 5910,
+            "max" : [
+                0.31541675329208374,
+                0.16093242168426514,
+                2.9975318908691406
+            ],
+            "min" : [
+                -0.3254442512989044,
+                -0.4179852604866028,
+                -2.9773788452148438
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 5910,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 5910,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 31716,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 45696,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45696,
+            "byteOffset" : 45696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32928,
+            "byteOffset" : 91392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 121344,
+            "byteOffset" : 124320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 121344,
+            "byteOffset" : 245664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 121812,
+            "byteOffset" : 367008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70920,
+            "byteOffset" : 488820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70920,
+            "byteOffset" : 559740
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47280,
+            "byteOffset" : 630660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 63432,
+            "byteOffset" : 677940
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 741372,
+            "uri" : "placket_WithPlacket.bin"
+        }
+    ]
+}

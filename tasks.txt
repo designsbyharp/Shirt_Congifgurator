@@ -1,0 +1,780 @@
+
+Remove objects function
+ // console.log(targetID)
+        // let collarId = propsShirt.collar[targetID]  
+        // const _collar = scene.getObjectByName(targetID)
+        // let _Btn = scene.getObjectByName(targetID + "_Btn")
+        // let _Hole = scene.getObjectByName(targetID + "_Hole")
+        // let removeItems = [_collar, _Btn, _Hole]
+        // console.log(_collar)
+        // scene.parent.remove(collarId)
+  
+        // removeItems.forEach((item) => {
+        //   item.parent.remove(item)
+        // })  
+        // changeCollar(collarId)
+
+          // console.log(scene)
+    // console.log(scene.children[1])
+    // scene.traverse(function(child){
+      // console.log(category)
+
+      // let shirtObjects;
+
+      // scene.children.forEach((child)=> {
+      //   if(child.name === "Shirt"){
+      //     shirtObjects = child.children;
+      //   }
+      // })
+
+      // console.log(shirtObjects)
+      
+      // if(scene.children[1].name === "Shirt"){
+      //   console.log("yes")
+      // }
+
+      function changeCollar(model){
+    let loader = new GLTFLoader();   
+        loader.load(model, gltf => {
+           let mesh = gltf.scene;
+            gltf.scene.traverse(function(child){
+              //   if ( child.isMesh ) {
+              //       let _L = child.name.split("_");
+              //       console.log(_L)
+              //       // if(_L[_L.length - 1] === "Btn"){
+              //       //     child.material = materials.buttonMat
+              //       // } else if(_L[_L.length - 1] === "Hole"){
+              //       //     child.material = materials.threadMat;
+              //       // }else{
+                        child.material = materials.fabric;
+                        // materials.fabric.map.wrapS = materials.fabric.map.wrapT = RepeatWrapping;
+                        // materials.fabric.map.repeat.set(texturesData[0].scaleX, texturesData[0].scaleY)
+                        // materials.needsUpdate = true
+              //       }
+              //  }
+            });
+      
+            scene.add(mesh);
+        });
+  }
+
+  let shirtElements = {
+"Collar" : {
+     "BusinessClassic" :  {
+       "url" : "/Collar/collar_BusinessClassic.gltf",
+     },
+       "ButtonDownModern" : {
+        "url":"/Collar/collar_ButtonDownModern.gltf"
+    },
+       "Club" : {
+        "url": "/Collar/collar_Club.gltf"
+    },
+      "CutAwayCasual" : {
+      "url": "/Collar/collar_CutAwayCasual.gltf", 
+    },
+      "CutAwayClassic" : {
+      "url": "/Collar/collar_CutAwayClassic.gltf",
+    },
+      "CutAwayExtreme" : {
+      "url": "/Collar/collar_CutAwayExtreme.gltf",
+    },
+      "CutAwayModern" : {
+      "url":  "/Collar/collar_CutAwayModern.gltf",
+    },
+      "CutAwaySuperior" : {
+      "url": "/Collar/collar_CutAwaySuperior.gltf",
+    },
+      "CutAwayTwoBtn" : {
+        "url": "/Collar/collar_CutAwayTwoBtn.gltf",
+    },
+      "Mao" : {
+        "url": "/Collar/collar_Mao.gltf",
+    },
+      "ModernClub" : {
+        "url": "/Collar/collar_ModernClub.gltf",
+    },
+      "Pin" : {
+        "url": "/Collar/collar_Pin.gltf",
+    },
+      "Tab" : {
+        "url": "/Collar/collar_Tab.gltf",
+    },
+      "TurnDownSperior" : {
+        "url": "/Collar/collar_TurnDownSperior.gltf",
+    },
+      "Wing" : {
+        "url": "/Collar/Collar_Wing.gltf",
+    },
+},
+"Cuff": {
+  "DoubleButtonBeleved" : {
+    "url" : "/Cuff/DoubleButtonBeleved.gltf",
+  }, 
+  "DoubleButtonRounded" : {
+    "url" : "/Cuff/DoubleButtonRounded.gltf"
+  },
+  "Narrow" : {
+    "url" : "/Cuff/Narrow.gltf"
+  }, 
+  "Narrow" : {
+    "url" : "/Cuff/Narrow.gltf"
+  },
+  "SingleButtonBeveled" : {
+   "url" : "/Cuff/SingleButtonBeveled.gltf"
+ }, 
+ "SingleButtonCasual" : {
+  "url" : "/Cuff/SingleButtonCasual.gltf"
+},
+"SingleButtonRounded" : {
+  "url" : "/Cuff/SingleButtonRounded.gltf"
+}, 
+"SingleButtonStraight" : {
+  "url" : "/Cuff/SingleButtonStraight.gltf"
+}, 
+},
+"Sleeve" : {
+  "SleeveShort" : {
+    "url" : "/Sleeve/SleeveShort.gltf"
+  },
+  "SleeveLong" : {
+    "url" : "/Sleeve/SleeveLong.gltf"
+  }
+},
+"Fit" : {
+  "BodyFitClassic" : {
+    "url" : "/Fit/BodyFitClassic.gltf"
+  },
+  "BodyFitModern" : {
+    "url" : "/Fit/BodyFitModern.gltf"
+  },
+  "BodyFitStraight" : {
+    "url" : "/Fit/BodyFitStraight.gltf"
+  },
+  "LooseFitClassic" : {
+    "url" : "/Fit/LooseFitClassic.gltf"
+  },
+  "LooseFitModern" : {
+    "url" : "/Fit/LooseFitModern.gltf"
+  },
+  "LooseFitStraight" : {
+    "url" : "/Fit/LooseFitStraight.gltf"
+  },
+  "NormalFitClassic" : {
+    "url" : "/Fit/NormalFitClassic.gltf"
+  },
+  "NormalFitModern" : {
+    "url" : "/Fit/NormalFitModern.gltf"
+  },
+  "NormalFitStraight" : {
+    "url" : "/Fit/NormalFitStraight.gltf"
+  },
+  "SlimFitModern" : {
+    "url" : "/Fit/SlimFitModern.gltf"
+  },
+  "SlimFitStraight" : {
+    "url" : "/Fit/SlimFitStraight.gltf"
+  },
+  
+},
+"Placket" : {
+  "PlacketNarrow" : {
+    "url" : "/Placket/PlacketNarrow.gltf"
+  },
+  "PlacketWithPlacket" : {
+    "url" : "/Placket/PlacketWithPlacket.gltf"
+  },
+  "PlacketWithoutPlacket" : {
+    "url" : "/Placket/PlacketWithoutPlacket.gltf"
+  }
+},
+"Pocket": {
+  "VShaped" : {
+    "url" : "/Pocket/VShaped.gltf"
+  },
+  "UShaped" : {
+    "url" : "/Pocket/UShaped.gltf"
+  },
+  "Straight" : {
+    "url" : "/Pocket/Straight.gltf"
+  },
+  "Lt-VShaped" : {
+    "url" : "/Pocket/Lt-VShaped.gltf"
+  },
+  "Lt-UShaped" : {
+    "url" : "/Pocket/Lt-UShaped.gltf"
+  },
+  "Lt-Straight" : {
+    "url" : "/Pocket/Lt-Straight.gltf"
+  }
+}
+}
+
+let ctaFabrics = document.querySelectorAll(".fabric-changer")
+let ctaCollars = document.querySelectorAll(".collar")
+let ctaSleeves = document.querySelectorAll(".sleeve")
+let ctaFits = document.querySelectorAll(".fit")
+let ctaCuffs = document.querySelectorAll(".cuff")
+let ctaPlackets = document.querySelectorAll(".placket")
+let ctaPockets = document.querySelectorAll(".pocket")
+
+let modelObjects = [
+  {
+    "buttonInfo": ctaCollars,
+    "category": "Collar"
+  }, 
+  {
+    "buttonInfo": ctaSleeves,
+    "category": "Sleeve"
+  },
+  {
+    "buttonInfo": ctaPlackets,
+    "category": "Placket"
+  },
+  {
+    "buttonInfo": ctaFits,
+    "category": "Fit"
+  },
+  {
+    "buttonInfo": ctaCuffs,
+    "category": "Cuff"
+  },
+  {
+    "buttonInfo": ctaPockets,
+    "category": "Pocket"
+  }
+]
+
+let buttons = [
+  {
+    "category": "collar",
+    "elements": [
+      {
+        "name" : "BusinessClassic"
+      },
+      {
+        "name" : "ButtonDownModern"
+      },
+      {
+        "name" : "Club"
+      },
+      {
+        "name" : "CutAwayCasual"
+      },
+      {
+        "name" : "CutAwayClassic"
+      },
+      {
+        "name" : "CutAwayExtreme"
+      },
+      {
+        "name" : "CutAwayModern"
+      },
+      {
+        "name" : "CutAwaySuperior"
+      },
+      {
+        "name" : "CutAwayTwoBtn"
+      },
+      {
+        "name" : "Mao"
+      },
+      {
+        "name" : "ModernClub"
+      },
+      {
+        "name" : "Pin"
+      },
+      {
+        "name" : "Tab"
+      },
+      {
+        "name" : "TurnDownSperior"
+      },
+      {
+        "name" : "Wing"
+      }
+    ]
+  },
+  {
+    "category": "cuff",
+    "elements": [
+      {
+        "name" : "DoubleButtonBeveled"
+      },
+      {
+        "name" : "DoubleButtonRounded"
+      },
+      {
+        "name" : "Narrow"
+      },
+      {
+        "name" : "SingleButtonBeveled"
+      },
+      {
+        "name" : "SingleButtonCasual"
+      },
+      {
+        "name" : "SingleButtonRounded"
+      },
+      {
+        "name" : "SingleButtonStraight"
+      }
+    ]
+  },
+  {
+    "category" : "fit",
+    "elements" : [
+      {
+        "name" : "BodyFitClassic"
+      },
+      {
+        "name" : "BodyFitModern"
+      },
+      {
+        "name" : "BodyFitStraight"
+      },
+      {
+        "name" : "LooseFitClassic"
+      },
+      {
+        "name" : "LooseFitModern"
+      },
+      {
+        "name" : "LooseFitStraight"
+      },
+      {
+        "name" : "NormalFitClassic"
+      },
+      {
+        "name" : "NormalFitModren"
+      },
+      {
+        "name" : "NormalFitStraight"
+      },
+      {
+        "name" : "SlimFitModern"
+      },
+      {
+        "name" : "SlimFitStraight"
+      }
+    ]
+  },
+  {
+    "category": "placket",
+    "elements" : [
+      {
+        "name": "PlacketNarrow"
+      },
+      {
+        "name": "PlacketWithPlacket"
+      },
+      {
+        "name": "PlacketWithoutPlacket"
+      }
+    ]
+  },
+  {
+    "category": "pocket",
+    "elements" : [
+      {
+        "name": "Lt-Straight"
+      },
+      {
+        "name": "Lt-UShaped"
+      },
+      {
+        "name": "Lt-VShaped"
+      },
+      {
+        "name": "Straight"
+      },
+      {
+        "name": "UShaped"
+      },
+      {
+        "name": "VShaped"
+      }
+    ]
+  },
+  {
+    "category": "sleeve",
+    "elements" : [
+      {
+        "name": "SleeveShort"
+      },
+      {
+        "name": "SleeveLong"
+      }
+    ]
+  }
+]
+
+// let buttons = [
+  //   {
+  //     "category": "collar",
+  //     "elements": [
+  //       {
+  //         "name" : "BusinessClassic"
+  //       },
+  //       {
+  //         "name" : "ButtonDownModern"
+  //       },
+  //       {
+  //         "name" : "Club"
+  //       },
+  //       {
+  //         "name" : "CutAwayCasual"
+  //       },
+  //       {
+  //         "name" : "CutAwayClassic"
+  //       },
+  //       {
+  //         "name" : "CutAwayExtreme"
+  //       },
+  //       {
+  //         "name" : "CutAwayModern"
+  //       },
+  //       {
+  //         "name" : "CutAwaySuperior"
+  //       },
+  //       {
+  //         "name" : "CutAwayTwoBtn"
+  //       },
+  //       {
+  //         "name" : "Mao"
+  //       },
+  //       {
+  //         "name" : "ModernClub"
+  //       },
+  //       {
+  //         "name" : "Pin"
+  //       },
+  //       {
+  //         "name" : "Tab"
+  //       },
+  //       {
+  //         "name" : "TurnDownSperior"
+  //       },
+  //       {
+  //         "name" : "Wing"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "category": "cuff",
+  //     "elements": [
+  //       {
+  //         "name" : "DoubleButtonBeveled"
+  //       },
+  //       {
+  //         "name" : "DoubleButtonRounded"
+  //       },
+  //       {
+  //         "name" : "Narrow"
+  //       },
+  //       {
+  //         "name" : "SingleButtonBeveled"
+  //       },
+  //       {
+  //         "name" : "SingleButtonCasual"
+  //       },
+  //       {
+  //         "name" : "SingleButtonRounded"
+  //       },
+  //       {
+  //         "name" : "SingleButtonStraight"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "category" : "fit",
+  //     "elements" : [
+  //       {
+  //         "name" : "BodyFitClassic"
+  //       },
+  //       {
+  //         "name" : "BodyFitModern"
+  //       },
+  //       {
+  //         "name" : "BodyFitStraight"
+  //       },
+  //       {
+  //         "name" : "LooseFitClassic"
+  //       },
+  //       {
+  //         "name" : "LooseFitModern"
+  //       },
+  //       {
+  //         "name" : "LooseFitStraight"
+  //       },
+  //       {
+  //         "name" : "NormalFitClassic"
+  //       },
+  //       {
+  //         "name" : "NormalFitModren"
+  //       },
+  //       {
+  //         "name" : "NormalFitStraight"
+  //       },
+  //       {
+  //         "name" : "SlimFitModern"
+  //       },
+  //       {
+  //         "name" : "SlimFitStraight"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "category": "placket",
+  //     "elements" : [
+  //       {
+  //         "name": "PlacketNarrow"
+  //       },
+  //       {
+  //         "name": "PlacketWithPlacket"
+  //       },
+  //       {
+  //         "name": "PlacketWithoutPlacket"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "category": "pocket",
+  //     "elements" : [
+  //       {
+  //         "name": "Lt-Straight"
+  //       },
+  //       {
+  //         "name": "Lt-UShaped"
+  //       },
+  //       {
+  //         "name": "Lt-VShaped"
+  //       },
+  //       {
+  //         "name": "Straight"
+  //       },
+  //       {
+  //         "name": "UShaped"
+  //       },
+  //       {
+  //         "name": "VShaped"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "category": "sleeve",
+  //     "elements" : [
+  //       {
+  //         "name": "SleeveShort"
+  //       },
+  //       {
+  //         "name": "SleeveLong"
+  //       }
+  //     ]
+  //   }
+  // ]
+
+  
+  // let ctaFabrics = document.querySelectorAll(".fabric-changer")
+  // let ctaCollars = document.querySelectorAll(".collar")
+  // let ctaSleeves = document.querySelectorAll(".sleeve")
+  // let ctaFits = document.querySelectorAll(".fit")
+  // let ctaCuffs = document.querySelectorAll(".cuff")
+  // let ctaPlackets = document.querySelectorAll(".placket")
+  // let ctaPockets = document.querySelectorAll(".pocket")
+
+  // let modelObjects = [
+  //   {
+  //     "buttonInfo": ctaCollars,
+  //     "category": "Collar"
+  //   }, 
+  //   {
+  //     "buttonInfo": ctaSleeves,
+  //     "category": "Sleeve"
+  //   },
+  //   {
+  //     "buttonInfo": ctaPlackets,
+  //     "category": "Placket"
+  //   },
+  //   {
+  //     "buttonInfo": ctaFits,
+  //     "category": "Fit"
+  //   },
+  //   {
+  //     "buttonInfo": ctaCuffs,
+  //     "category": "Cuff"
+  //   },
+  //   {
+  //     "buttonInfo": ctaPockets,
+  //     "category": "Pocket"
+  //   }
+  // ]
+
+
+
+
+
+
+  const modelData = [
+          {
+            id: 1,
+            url: "/default-shirt.gltf",
+            scaleX: 2,
+            scaleY: 2
+          }
+      ]
+
+
+let shirtElements = {
+        "Collar" : {
+             "BusinessClassic" :  {
+               "url" : "/Collar/collar_BusinessClassic.gltf",
+             },
+               "ButtonDownModern" : {
+                "url":"/Collar/collar_ButtonDownModern.gltf"
+            },
+               "Club" : {
+                "url": "/Collar/collar_Club.gltf"
+            },
+              "CutAwayCasual" : {
+              "url": "/Collar/collar_CutAwayCasual.gltf", 
+            },
+              "CutAwayClassic" : {
+              "url": "/Collar/collar_CutAwayClassic.gltf",
+            },
+              "CutAwayExtreme" : {
+              "url": "/Collar/collar_CutAwayExtreme.gltf",
+            },
+              "CutAwayModern" : {
+              "url":  "/Collar/collar_CutAwayModern.gltf",
+            },
+              "CutAwaySuperior" : {
+              "url": "/Collar/collar_CutAwaySuperior.gltf",
+            },
+              "CutAwayTwoBtn" : {
+                "url": "/Collar/collar_CutAwayTwoBtn.gltf",
+            },
+              "Mao" : {
+                "url": "/Collar/collar_Mao.gltf",
+            },
+              "ModernClub" : {
+                "url": "/Collar/collar_ModernClub.gltf",
+            },
+              "Pin" : {
+                "url": "/Collar/collar_Pin.gltf",
+            },
+              "Tab" : {
+                "url": "/Collar/collar_Tab.gltf",
+            },
+              "TurnDownSperior" : {
+                "url": "/Collar/collar_TurnDownSperior.gltf",
+            },
+              "Wing" : {
+                "url": "/Collar/Collar_Wing.gltf",
+            },
+        },
+        "Cuff": {
+          "DoubleButtonBeleved" : {
+            "url" : "/Cuff/DoubleButtonBeleved.gltf",
+          }, 
+          "DoubleButtonRounded" : {
+            "url" : "/Cuff/DoubleButtonRounded.gltf"
+          },
+          "Narrow" : {
+            "url" : "/Cuff/Narrow.gltf"
+          }, 
+          "Narrow" : {
+            "url" : "/Cuff/Narrow.gltf"
+          },
+          "SingleButtonBeveled" : {
+           "url" : "/Cuff/SingleButtonBeveled.gltf"
+         }, 
+         "SingleButtonCasual" : {
+          "url" : "/Cuff/SingleButtonCasual.gltf"
+        },
+        "SingleButtonRounded" : {
+          "url" : "/Cuff/SingleButtonRounded.gltf"
+        }, 
+        "SingleButtonStraight" : {
+          "url" : "/Cuff/SingleButtonStraight.gltf"
+        }, 
+        },
+        "Sleeve" : {
+          "SleeveShort" : {
+            "url" : "/Sleeve/SleeveShort.gltf"
+          },
+          "SleeveLong" : {
+            "url" : "/Sleeve/SleeveLong.gltf"
+          }
+        },
+        "Fit" : {
+          "BodyFitClassic" : {
+            "url" : "/Fit/BodyFitClassic.gltf"
+          },
+          "BodyFitModern" : {
+            "url" : "/Fit/BodyFitModern.gltf"
+          },
+          "BodyFitStraight" : {
+            "url" : "/Fit/BodyFitStraight.gltf"
+          },
+          "LooseFitClassic" : {
+            "url" : "/Fit/LooseFitClassic.gltf"
+          },
+          "LooseFitModern" : {
+            "url" : "/Fit/LooseFitModern.gltf"
+          },
+          "LooseFitStraight" : {
+            "url" : "/Fit/LooseFitStraight.gltf"
+          },
+          "NormalFitClassic" : {
+            "url" : "/Fit/NormalFitClassic.gltf"
+          },
+          "NormalFitModern" : {
+            "url" : "/Fit/NormalFitModern.gltf"
+          },
+          "NormalFitStraight" : {
+            "url" : "/Fit/NormalFitStraight.gltf"
+          },
+          "SlimFitModern" : {
+            "url" : "/Fit/SlimFitModern.gltf"
+          },
+          "SlimFitStraight" : {
+            "url" : "/Fit/SlimFitStraight.gltf"
+          },
+          
+        },
+        "Placket" : {
+          "PlacketNarrow" : {
+            "url" : "/Placket/PlacketNarrow.gltf"
+          },
+          "PlacketWithPlacket" : {
+            "url" : "/Placket/PlacketWithPlacket.gltf"
+          },
+          "PlacketWithoutPlacket" : {
+            "url" : "/Placket/PlacketWithoutPlacket.gltf"
+          }
+        },
+        "Pocket": {
+          "VShaped" : {
+            "url" : "/Pocket/VShaped.gltf"
+          },
+          "UShaped" : {
+            "url" : "/Pocket/UShaped.gltf"
+          },
+          "Straight" : {
+            "url" : "/Pocket/Straight.gltf"
+          },
+          "Lt-VShaped" : {
+            "url" : "/Pocket/Lt-VShaped.gltf"
+          },
+          "Lt-UShaped" : {
+            "url" : "/Pocket/Lt-UShaped.gltf"
+          },
+          "Lt-Straight" : {
+            "url" : "/Pocket/Lt-Straight.gltf"
+          }
+        }
+}
+
+export {modelData, shirtElements};
+

@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: red;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(246, 246, 246), rgb(237, 237, 237), rgb(229, 229, 229), rgb(220, 220, 220), rgb(211, 211, 211), rgb(202, 202, 202), rgb(193, 193, 193), rgb(184, 184, 184), rgb(176, 176, 176), rgb(167, 167, 167), rgb(158, 158, 158));
+}
+
+.webgl {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 1; */
+}
+
+button {
+  position: absolute;
+  top: 30px;
+  /* top: 30px;
+  left: 50px; */
+  border: 1px solid black;
+  padding: 10px;
+  background-color: aquamarine;
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+.fabric-changer--1 {
+  left: 50px;
+}
+
+.fabric-changer--2 {
+  left: 150px;
+}
+
+.fabric-changer--3 {
+  left: 250px;
+}
+
+
+.collar--1 {
+  left: 100px;
+}
+
+.collar--2{
+  left: 230px;
+}
+
+.collar--3{
+  left: 390px;
+}
+
+.collar--4{
+  left: 450px;
+}
+
+.collar--5{
+  left: 580px;
+}
+
+.collar--6{
+  left: 710px;
+}
+
+.collar--7{
+  left: 850px;
+}
+
+.collar--8{
+  left: 990px;
+}
+
+.collar--9{
+  left: 1130px;
+}
+
+.collar--10{
+  left: 1270px;
+}
+
+.collar--11{
+  left: 1330px;
+}
+
+.collar--12{
+  left: 1440px;
+}
+
+.collar--13{
+  left: 1490px;
+}
+
+.collar--14{
+  left: 1540px;
+}
+
+.collar--15{
+  left: 1680px;
+}
+
+.sleeve--1 {
+  left: 100px;
+  top: 400px;
+}
+
+.sleeve--2{
+  left: 200px;
+  top: 400px;
+}
+
+.fit{
+  top: 500px;
+}
+
+.fit--1{
+  left: 100px;
+}
+
+.fit--2{
+  left: 230px;
+}
+
+.fit--3{
+  left: 370px;
+}
+
+.fit--4{
+  left: 495px;
+}
+
+.fit--5{
+  left: 625px;
+}
+
+.fit--6{
+  left: 760px;
+}
+
+.fit--7{
+  left: 890px;
+}
+
+.fit--8{
+  left: 1025px;
+}
+
+.fit--9{
+  left: 1160px;
+}
+
+.fit--10{
+  left: 1300px;
+}
+
+.fit--11{
+  left: 1420px;
+}
+
+
+.placket {
+  top: 600px;
+}
+
+.placket--1{
+  left: 100px;
+}
+
+.placket--2{
+  left: 220px;
+}
+
+.placket--3{
+  left: 375px;
+}
+
+
+.pocket {
+  top: 700px;
+}
+
+.pocket--1 {
+  left: 100px;
+}
+
+.pocket--2 {
+  left: 200px;
+}
+
+.pocket--3 {
+  left: 300px;
+}
+
+.pocket--4 {
+  left: 400px;
+}
+
+.pocket--5 {
+  left: 500px;
+}
+
+.pocket--6 {
+  left: 600px;
+}
+
+.pocket--7 {
+  left: 700px;
+}
+
+.cuff{
+  top: 800px;
+}
+
+.cuff--1{
+  left: 100px;
+}
+
+.cuff--2{
+  left: 265px;
+}
+
+.cuff--3{
+  left: 440px;
+}
+
+.cuff--4{
+  left: 515px;
+}
+
+.cuff--5{
+  left: 675px;
+}
+
+.cuff--6{
+  left: 830px;
+}
+
+.cuff--7{
+  left: 995px;
+}
